@@ -6,7 +6,7 @@ public class Main {
         String string = scanner.next();
         System.out.println(string);
       } catch(Exception e){
-        System.out.println("An error was found");
+        System.out.println("An error was found ");
       }
       
     }
