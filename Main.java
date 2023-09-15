@@ -8,7 +8,7 @@ public class Main {
           }
         
       } catch(Exception e){
-        System.out.println("An error was found ");
+        System.out.println("An error was found");
       }
       
     }
