@@ -10,7 +10,7 @@ public class Main {
           System.out.print(string.trim());
         
       } catch(Exception e){
-        System.out.println("An error was found");
+        System.out.println("An error was found ");
       }
       
     }
