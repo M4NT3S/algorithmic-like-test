@@ -9,7 +9,7 @@ public class Main {
            System.out.println(string + " "+ numero);
         
       } catch(Exception e){
-        System.out.println("An error was found ");
+        System.out.println("An error was found");
       }
       
     }
