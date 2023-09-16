@@ -4,9 +4,10 @@ public class Main {
       try{
         Scanner scanner = new Scanner(System.in);
         String string = "";
-          int numero=3 + 5;
-          string = scanner.next();
-           System.out.println(string + " "+ numero);
+        while(scanner.hasNext()){
+            string = string + next() + " ";
+        }
+          System.out.print(string.trim());
         
       } catch(Exception e){
         System.out.println("An error was found");
