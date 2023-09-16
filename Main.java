@@ -4,11 +4,8 @@ public class Main {
       try{
         Scanner scanner = new Scanner(System.in);
         String string = "";
-           while(scanner.hasNext()){
-               string = string + scanner.next();
-               string + " ";
-           }
-          System.out.print(string.trim());
+           string = scanner.next();
+           System.out.println(string);
         
       } catch(Exception e){
         System.out.println("An error was found ");
