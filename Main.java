@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String string = "";
            while(scanner.hasNext()){
-               string += scanner.next();
+               string = string + scanner.next();
                string + " ";
            }
           System.out.print(string.trim());
